@@ -1,0 +1,2 @@
+A NodeList is an array-like, which means you can iterate through it and it shares some common methods with an array. For your getCaloriesFromInputs function, an array will work for the argument just as well as a NodeList does.
+NodeList and Array.from()

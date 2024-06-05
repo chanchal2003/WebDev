@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="myDIV">
+  <p class="demo">This is a p element with id="demo" in a div.</p>
+</div>
+
+<p class="demo">Click the button to change the text of the p element in div.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<div id="container">
+  <p>Example paragraph</p>
+</div>
+
+<script>
+  const container = document.getElementById("container");
+container.innerHTML += `
+  <p>adding new content</p>
+`;
+
+function myFunction() {
+  console.log(document.querySelectorAll(".demo").innerText);
+}
+</script>
+
+</body>
+</html>

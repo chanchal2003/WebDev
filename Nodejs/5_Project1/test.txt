@@ -1,0 +1,42 @@
+GET /users -> list all users
+GET /users/1 -> list all users with id 1
+
+POST /users -> creates new users
+
+PATCH /user/1 -> edit the user with ID 1
+
+1 that is :id is the path parameter, if you change the path parameter the resource that the url is pointing to changes 
+
+this video shows what is differnce between path and query parameter
+
+query parameter -> when you want to fetch a customer with name=abc
+path parameter -> when you want to fetch  particular entry
+
+resource is the database which is present at server end 
+
+path parameter -> it helps to point to specific resource 
+query parameter -> filters through list of resources 
+
+https://www.youtube.com/watch?v=ST8XxjOTIsg&t=129s&ab_channel=sudoCODE
+
+GET -> read information abou the resource
+
+POST -> create a new resource 
+
+PUT -> update the resource
+
+PATCH -> update the resource
+
+DELETE -> delete the resource
+
+we send data with the resource
+
+response codes 
+2xx -> sucess
+3xx -> redirection and others
+4xx -> problem on client side
+5xx -> problem on server side
+
+http headers 
+set of attributes that corresponds to any meta data asspciated wih api request 
+
